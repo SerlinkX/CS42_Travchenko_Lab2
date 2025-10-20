@@ -41,7 +41,9 @@ public class Lab1Application implements CommandLineRunner {
 
 
         int max = maxNumberService.findMax(numbers);
-        System.out.println("Максимальніше число: " + max);
+
+        System.out.println("Наймаксимальне число: " + max);
+
     }
 }
 
